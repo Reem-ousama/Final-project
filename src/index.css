@@ -1,0 +1,33 @@
+
+
+.product:hover{
+    box-shadow: var(--shadow) !important;
+    border: 1px solid rgb(62, 141, 62) !important;
+}
+
+.product .btn1{
+    opacity: 0 !important;
+   transition: transform 1s , opacity 1s !important;
+   transform: translateY(100%) !important;
+}
+.product:hover .btn1{
+    opacity: 1 !important;
+    transform: translateY(0%) !important;
+}
+.rating-color{
+    color: var(--ratingColor);
+}
+
+.brands{
+    transition: all 1s;
+}
+.brands:hover{
+box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.592);
+}
+.cate{
+    transition: all 1s;
+}
+.cate:hover{
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.592);
+
+}
